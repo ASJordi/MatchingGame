@@ -1,0 +1,13 @@
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\bin\Release\MatchingGame.exe.config
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\bin\Release\MatchingGame.exe
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\bin\Release\MatchingGame.pdb
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.Form1.resources
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.Properties.Resources.resources
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.csproj.GenerateResource.cache
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.csproj.CoreCompileInputs.cache
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.exe
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.pdb
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\bin\Release\MatchingGame.exe.manifest
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\bin\Release\MatchingGame.application
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.exe.manifest
+C:\Users\seedi\Desktop\MatchingGame\MatchingGame\obj\Release\MatchingGame.application
