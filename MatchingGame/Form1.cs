@@ -13,6 +13,8 @@ namespace MatchingGame
     public partial class Form1 : Form
     {
 
+        int score = 0;
+
         // firstClicked points to the first Label control 
         // that the player clicks, but it will be null 
         // if the player hasn't clicked a label yet
@@ -68,6 +70,7 @@ namespace MatchingGame
         /// <param name="e"></param>
         private void label_Click(object sender, EventArgs e)
         {
+            int score1 = 0;
             // The timer is only on after two non-matching 
             // icons have been shown to the player, 
             // so ignore any clicks if the timer is running
@@ -93,6 +96,8 @@ namespace MatchingGame
                 {
                     firstClicked = clickedLabel;
                     firstClicked.ForeColor = Color.Black;
+                    //cada que da click a la primer etiqueta suma 1 a score
+                    //score = score + 1;
                     return;
                 }
 
@@ -102,6 +107,16 @@ namespace MatchingGame
                 // Set its color to black
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+
+                // If the player clicked two matching icons, keep them 
+                // black and reset firstClicked and secondClicked 
+                // so the player can click another icon
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
 
                 // If the player gets this far, the player 
                 // clicked two different icons, so start the 
