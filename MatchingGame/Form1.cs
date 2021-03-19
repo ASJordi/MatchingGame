@@ -12,7 +12,7 @@ namespace MatchingGame
 {
     public partial class Form1 : Form
     {
-
+        //variable to store number of attempts
         int score = 0;
 
         // firstClicked points to the first Label control 
@@ -95,8 +95,8 @@ namespace MatchingGame
                 {
                     firstClicked = clickedLabel;
                     firstClicked.ForeColor = Color.Black;
-                    //cada que da click a la primer etiqueta suma 1 a score
-                    //score = score + 1;
+                    //each click on the first label adds 1 to the score
+                    score = score + 1;
                     return;
                 }
 
@@ -176,7 +176,7 @@ namespace MatchingGame
             // If the loop didn’t return, it didn't find
             // any unmatched icons
             // That means the user won. Show a message and close the form
-            MessageBox.Show("You matched all the icons!, intentos: " + score, "Congratulations");
+            MessageBox.Show("Encontraste todos los pares! con " + score +  " intentos", "Congratulations");
             Close();
         }
 
